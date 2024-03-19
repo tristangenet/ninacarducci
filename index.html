@@ -62,8 +62,15 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="Photographe Nina Carducci">
-	</div>
+        <img
+          class="nina-photo"
+          src="./assets/images/nina.webp"
+          srcset="
+            ./assets/images/nina.webp 554w,
+            ./assets/images/nina-mobile-250.webp 250w"
+          sizes="100vw"
+          alt="Nina"/>
+		</div>
 	<div id="about-me">
 		<h3 class="about-me__title">A propos de moi</h3>
 		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
