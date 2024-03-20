@@ -72,6 +72,14 @@ body {
 
 }
 
+.carousel-item {
+	box-sizing:border-box;
+}
+
+.carousel-item img {
+	width:100vw;height:auto;
+}
+
 .nina-photo{
 	width:100%;
 	height:auto
